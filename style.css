@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fundox.jpg);  
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+ul{
+   list-style: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content:center ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(0, 208, 255) ;
+    width: 88%;
+    letter-spacing: 4px;
+}
+h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imgciclope{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgciclope:hover{
+    transform: scale(1.1);
+}
+.imgjean{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgjean:hover{
+    transform: scale(1.1);
+}
+
+.imglince{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imglince:hover{
+    transform: scale(1.1);
+}
+.imgvampira{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgvampira:hover{
+    transform: scale(1.1);
+}
+.imgtempestade{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgtempestade:hover{
+    transform: scale(1.1);
+}
+.imgwolverine{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgwolverine:hover{
+    transform: scale(1.1);
+}
+.imgnoturno{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgnoturno:hover{
+    transform: scale(1.1);
+}
+.imgmagneto{
+    width: 130px;
+    height: 160px;
+    transition: all 0.3s;
+}
+.imgmagneto:hover{
+    transform: scale(1.1);
+}
+
+.selecao-personagens{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.personagem-grande{
+    width: 250px;
+}
+
+.selecao-personagens .lista-personagem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 200px;
+    
+}
+
+.selecao-personagens .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    gap: 25px;
+}
+
+.lista-personagem .personagem.selecionado{
+    box-shadow: 0px 0px 24px 5px blue;
+
+
+}
+
+.personagem-selecionado{
+    text-align: center;
+    max-height: 530px;
+    border-bottom: 3px solid rgb(48, 230, 253);
+    margin-bottom: 200px;
+
+}
+
+@media (max-width: 590px){
+    .cabecalho{
+       text-align: center;
+      
+       
+    }
+    .titulo{
+        font-size: 1em;
+        display: flex;
+        text-align: center;
+    }
+    .selecao-personagens {
+        flex-direction: column;
+        max-width: 430px;
+        margin: 0 auto;
+        
+    }
+    .personagem-selecionado{
+        margin-top: -200px;
+    }
+   
+}
+
+
